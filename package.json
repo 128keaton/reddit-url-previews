@@ -1,0 +1,27 @@
+{
+  "name": "reddit-url-previews",
+  "version": "0.0.1",
+  "description": "Generate beautiful URL previews for reddit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/128keaton/reddit-url-previews.git"
+  },
+  "keywords": [
+    "reddit",
+    "url",
+    "previews"
+  ],
+  "author": "Keaton Burleson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/128keaton/reddit-url-previews/issues"
+  },
+  "homepage": "https://github.com/128keaton/reddit-url-previews#readme",
+  "dependencies": {
+    "html-metadata": "^1.7.1"
+  }
+}
