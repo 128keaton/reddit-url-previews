@@ -1,0 +1,17 @@
+html
+    head
+        base(href='127.0.0.1')
+        link(rel='stylesheet', href='css/generated.css', type='text/css')
+        title= `${postTitle} - ${subredditName}`
+        style
+            include ../public/css/generated.css
+
+    body
+        div.content(onclick='window.location = "' + postURL + '"')
+            if !isIcon
+                div.image(style="background-image: url(" + imageURL + ")")
+            else
+                div.icon(style="background-image: url(" + imageURL + ")")
+
+            h1.
+                #{postTitle} #[small= subredditName]

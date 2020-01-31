@@ -1,0 +1,11 @@
+
+html
+    body
+        h1= "No URL Provided"
+        if returnMessage != null
+            h2= returnMessage
+        form(method='POST' action='/')
+            div.form-group
+                label(for='url') reddit URL:
+                input#url.form-control(type='text', placeholder='https://reddit.com' name='url')
+            button(type='submit') Retrive
