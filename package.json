@@ -35,7 +35,7 @@
     "metascraper-logo": "^5.10.6",
     "metascraper-title": "^5.10.6",
     "metascraper-url": "^5.10.6",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "wkhtmltoimage": "^0.1.5",
     "got": "latest"
   },
